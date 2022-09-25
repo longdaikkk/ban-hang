@@ -62,30 +62,30 @@ export default function ClothList() {
             <h2 className='text-center mt-5'>Áo thun</h2>
             <Row className='container'>
                 {renderListDataShirt('ao')}
-                <Col  xs={12} sm={12} md={12} lg={8} xl={6} className='mb-4 p-2'>
+                <Col xs={12} sm={12} md={12} lg={8} xl={6} className='mb-4 p-2'>
                     <Button onClick={() => {
                         navigate('/shirt')
-                    }} style={{width: '100%', height: '100%' }}>Xem thêm . . .</Button>
+                    }} style={{ width: '100%', height: '100%' }}>Xem thêm . . .</Button>
                 </Col>
             </Row>
             <hr />
             <h2 className='text-center'>Quần</h2>
             <Row className='container mb-5'>
                 {renderListDataShirt('quan')}
-                <Col  xs={12} sm={12} md={12} lg={8} xl={6} className='mb-4 p-2'>
+                <Col xs={12} sm={12} md={12} lg={8} xl={6} className='mb-4 p-2'>
                     <Button onClick={() => {
                         navigate('/trouser')
-                    }} style={{width: '100%',height: '100%' }}>Xem thêm . . .</Button>
+                    }} style={{ width: '100%', height: '100%' }}>Xem thêm . . .</Button>
                 </Col>
             </Row>
             <hr />
             <h2 className='text-center'>Phụ kiện</h2>
             <Row className='container mb-5'>
                 {renderListDataShirt('phuKien')}
-                <Col  xs={12} sm={12} md={12} lg={8} xl={6} className='mb-4 p-2'>
+                <Col xs={12} sm={12} md={12} lg={8} xl={6} className='mb-4 p-2'>
                     <Button onClick={() => {
-                        navigate('/trouser')
-                    }} style={{width: '100%',height: '100%' }}>Xem thêm . . .</Button>
+                        navigate('/accessory')
+                    }} style={{ width: '100%', height: '100%' }}>Xem thêm . . .</Button>
                 </Col>
             </Row>
         </>

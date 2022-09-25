@@ -541,13 +541,9 @@
   .navbar{
     flex-wrap: nowrap;
   }
+  header .nav-item.mx-4.mt-2 {
+    display: none;
   }
-
-  @media screen and (max-width: 670px) {
-    header .nav-item.mx-4.mt-2 {
-      display: none;
-    }
-    
   }
 
   @media screen and (max-width: 481px) {

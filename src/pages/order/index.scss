@@ -1,0 +1,21 @@
+.order{
+    margin-top: 100px;
+    min-height: 70vh;
+    // th{
+    //     width: 10%;
+    //     text-align: center;
+    // }
+    th:nth-child(1){
+        width: 20%;
+    }
+    th{
+        width: 10%;
+    }
+    td{
+        text-align: center;
+    }
+    td:nth-child(1){
+        text-align: left;
+    }
+    
+}
